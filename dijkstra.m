@@ -6,7 +6,7 @@ function [D,P] = dijkstra(A,s,t)
 %                A(i,j) = NaN => Arc (i,j) exists with 0 weight) 
 %     s = FROM node indices 
 %       = [] (default), paths from all nodes 
-%     t = TO node indices 
+%     t = TO node indices  
 %       = [] (default), paths to all nodes 
 %     D = |s| x |t| matrix of shortest path distances from 's' to 't' 
 %       = [D(i,j)], where D(i,j) = distance from node 'i' to node 'j'  
